@@ -23,8 +23,6 @@ if SHIELD_SYNTH_WAVE_LEFT || SHIELD_SYNTH_WAVE_RIGHT
 		config SSD1306
 		default y
 
-		config SSD1306_REVERSE_MODE
-		default y
 		if LVGL
 
 		config LV_Z_VDB_SIZE
