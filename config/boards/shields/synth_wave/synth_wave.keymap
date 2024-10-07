@@ -11,6 +11,10 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/mouse.h>
 
+#define ZMK_BEHAVIORS_OMIT_KT
+
+#include <behaviors.dtsi>
+
 / {
     
     keymap {
