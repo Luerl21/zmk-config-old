@@ -17,6 +17,7 @@
         compatible = "zmk,keymap";
         qwerty_layer {
             label = "QWERTY";
+            display-name = "QWERTY";
             bindings = <
                 &kp TAB &kp Q &kp W &kp E &kp R &kp T                       &kp Y   &kp U     &kp I   &kp O   &kp P   &kp BSPC
                 &kp LSHIFT &kp A &kp S &kp D &kp F &kp G                    &kp H   &kp J     &kp K   &kp L   &kp SEMICOLON    &kp SINGLE_QUOTE
@@ -27,6 +28,7 @@
         };
         number_layer {
             label = "NUMBER";
+            display-name = "NUMBER";
             bindings = <
                 &kp N1 &kp N2 &kp N3 &kp N4 &kp N5 &kp N6                                     &kp N7 &kp N8 &kp N9 &kp N0 &trans &kp BSPC
                 &trans &trans &trans &mkp LCLK &mkp RCLK &trans                               &trans &trans &trans &trans &kp UP_ARROW &trans
@@ -37,6 +39,7 @@
         };
         function_layer {
             label = "FUNCTION";
+            display-name = "FUNCTION";
             bindings = <
                 &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6                       &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12
                 &bt BT_CLR &bt BT_CLR_ALL &trans &trans &trans &trans           &rgb_ug RGB_TOG &rgb_ug RGB_EFF &rgb_ug RGB_HUI &rgb_ug RGB_SAI &rgb_ug RGB_BRI &rgb_ug RGB_SPI
@@ -47,6 +50,7 @@
         };
         game_layer {
             label = "GAME";
+            display-name = "GAME";
             bindings = <
                 &kp TAB &kp Q &kp W &kp E &kp R &kp G                     &trans &trans &trans &trans &trans &trans
                 &kp LSHIFT &kp A &kp S &kp D &kp F &kp T                  &trans &trans &trans &trans &trans &trans
@@ -54,6 +58,12 @@
                             &kp C_MUTE &kp B &trans &kp SPACE       &trans &tog 3 &trans &trans
             >;
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
+        };
+        extra1 {
+            status = "reserved";
+        };
+        extra2 {
+            status = "reserved";
         };
     };
 };
