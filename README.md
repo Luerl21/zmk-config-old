@@ -7,7 +7,7 @@
 ## Peripheral
 | with display      | sleep with display | sleep - without display | deep sleep |
 | :----------------:| :----------------: | :---------------------: | :--------: |
-|        9 mA       |         5.5 mA     |           3.8 mA         |   0.7 mA   |
+|        9 mA       |         5.5 mA     |           3.8 mA         |   0.7 mA   |s
 
 # Keymap
 ![keymap](https://github.com/Luerl21/zmk-config/blob/master/my_keymap.png)
