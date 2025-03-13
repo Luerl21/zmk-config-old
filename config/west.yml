@@ -3,7 +3,7 @@ manifest:
     - name: luerl21
       url-base: https://github.com/luerl21
   projects:
-    - name: zmk-old
+    - name: zmk
       remote: luerl21
       revision: steno
       import: app/west.yml
