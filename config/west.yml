@@ -1,11 +1,23 @@
+# manifest:
+#   remotes:
+#     - name: luerl21
+#       url-base: https://github.com/luerl21
+#   projects:
+#     - name: zmk
+#       remote: luerl21
+#       revision: steno
+#       import: app/west.yml
+#   self:
+#     path: config
+
 manifest:
   remotes:
-    - name: luerl21
-      url-base: https://github.com/luerl21
+    - name: zmkfirmware
+      url-base: https://github.com/zmkfirmware
   projects:
     - name: zmk
-      remote: luerl21
-      revision: steno
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
   self:
     path: config
